@@ -14,7 +14,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if (usernameInput === 'admin' && passwordInput === '123') {
         // Nếu đúng: Chuyển hướng sang trang chủ
         alert('Đăng nhập thành công!');
-        window.location.href = 'index.html'; 
+        window.location.href = 'home.html'; 
     } else {
         // Nếu sai: Hiện thông báo lỗi
         errorMsg.style.display = 'block';
